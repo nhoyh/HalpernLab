@@ -1,0 +1,13 @@
+1.  UNPLUG (squeeze and pull) ALL THE CONNECTORS FROM SWITCHING UNIT 
+	1.1 RUN first section in impedance_check.m
+    PLUG the connectors
+	1.2 RUN second section in impedance_check.m
+
+2. RUN stimulation_one or two pair.slx
+	2.1 Double click stimulator icon - Click Perform device self test - Click Apply / OK - Close
+	2.2 Click Run
+3. RUN scripts_stimulation_one_pair/initialization.m
+	3.1 Click Change folder (only if it asks to change it)
+
+4. Press the Foot Switch attached from the stimulator - make sure the light is on in Simulink
+5. Run script_*.m in scripts_stimulation_one_pair/scripts_stimulation_two_pairs
